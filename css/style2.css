@@ -1,50 +1,60 @@
-body
-{
-    background-color: #f6f6f6;
+a {
+  color: blue;  
+  text-decoration: none; 
+  }
 
-    margin: 2px 0 0 0;
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11pt;
-}
-h1
-{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 46pt;
-    margin: 10px 0 20px 0;
-    font-weight: bold;
-    -webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    -moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    color: #444;
-}
-.title1 { color: #666 }
-h2
-{
+  a:hover {
+  color: red;  
+  text-decoration: none; 
+  }
+
+  body {
+    background-color: beige;
+    color: black;
+    font-family: arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 2.3em;
-    color: #333;
-    margin: 0;
-}
-h3
-{
-    font-size: 1.4em;
-    color: #555;
-}
-a { color: black; }
-a:visited { color: gray; }
+ }
 
-.key, code
-{
-    padding: 0 2px;
-    font-family: Consolas, Monaco, "DejaVu Sans Mono", monospace;
-}
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 
-code
-{
-    font-weight: bold;
-}
+  h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+   }
 
+  h2 {
+    color: #075AAB;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+   }
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+  }
+
+  hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
 .menu { font-style: italic; }
 
 .navbar
