@@ -1,0 +1,84 @@
+body
+{
+    background-color: #f6f6f6;
+
+    margin: 2px 0 0 0;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+h1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 46pt;
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+    -webkit-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    color: #444;
+}
+.title1 { color: #666 }
+h2
+{
+    text-align: center;
+    font-size: 2.3em;
+    color: #333;
+    margin: 0;
+}
+h3
+{
+    font-size: 1.4em;
+    color: #555;
+}
+a { color: black; }
+a:visited { color: gray; }
+
+.key, code
+{
+    padding: 0 2px;
+    font-family: Consolas, Monaco, "DejaVu Sans Mono", monospace;
+}
+
+code
+{
+    font-weight: bold;
+}
+
+.menu { font-style: italic; }
+
+.navbar
+{
+    width: 905px;
+    height: 32px;
+    margin-top: 12px;
+    border-radius: 8px;
+    background-image: url(/images/longbar_middle.png); background-repeat: repeat-x;
+}
+
+.barlink
+{
+    padding: 0px 30px; font-family: arial; color: #cfcfcf; text-decoration: none; font-weight: bold; margin: 1px; font-size: 16px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.barlink:visited
+{
+    color: #cfcfcf;
+}
+
+.barlink:hover
+{
+    color: #ffffff
+}
+
+.post { margin: 6px; text-align: justify; width: 600px; }
+.post h2 { text-align: justify; margin: 0; }
+.key
+{
+    padding: 0 2px;
+    font-style: italic;
+}
+.menu { font-style: italic; }
+
+.release-date, .forum-link { font-size: 10pt }
